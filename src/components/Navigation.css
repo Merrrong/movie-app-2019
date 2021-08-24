@@ -1,0 +1,27 @@
+.menu {
+    display :flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    height : 20px;
+    margin:0;
+    margin-top:50px;
+    padding : 30px;
+}
+
+.home, .about {
+    text-decoration-line: none;
+    font-weight: 500;
+    background-color: #d1d1d1;
+    border-radius: 4px;
+    padding : 5px 10px;
+    margin : 1px;
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
+}
+
+#potato {
+    width:100%;
+    display :flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
